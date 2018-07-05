@@ -11,7 +11,7 @@
 
     <title>
         
-        kevin的博客 | kevin&#39;s Blog
+        MarkDown语法总结 - kevin的博客 | kevin&#39;s Blog
         
     </title>
 
@@ -65,7 +65,7 @@
                     <span>标签</span>
                 </a>
             </li>
-            <li  class=active >
+            <li >
                 <a href="/archives">
                     <i class="iconfont icon-guidang2"></i>
                     <span>存档</span>
@@ -87,6 +87,10 @@
             
         </ul>
     </div>
+    
+        <div id="toc" class="toc-article">
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Hexo-Markdown语法"><span class="toc-text">Hexo Markdown语法</span></a></li></ol>
+</div>
     
 </div>
 
@@ -113,50 +117,35 @@
         
 
 
-<!-- 归档列表 -->
+<div class="post-container">
+    <div class="post-title">
+        MarkDown语法总结
+    </div>
 
-<div class="archives-container">
-
-<div class="one-tag-list">
-                <span class="fa fa-calendar-times-o listing-seperator" id="2018">
-                    <span class="tag-text">2018</span>
-                </span>
-    <ul>
+    <div class="post-meta">
+        <span class="attr">发布于：<span>2018-07-05 17:49:41</span></span>
         
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>07-05</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/2018/07/05/MarkDown语法总结/">
-                        <span>
-                            MarkDown语法总结
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
+        <span class="attr">标签：/
         
-        <!-- <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li> -->
-        <li >
-            <span>07-05</span>
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/2018/07/05/测试/">
-                        <span>
-                            测试
-                        </span>
-            </a>
-            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </li>
+        <a class="tag" href="/tags/#markedown" title="markedown">markedown</a>
+        <span>/</span>
         
+        <a class="tag" href="/tags/#hexo" title="hexo">hexo</a>
+        <span>/</span>
+        
+        
+        </span>
+        <span class="attr">访问：<span id="busuanzi_value_page_pv"></span>
+</span>
+</span>
+    </div>
+    <div class="post-content ">
+        <h1 id="Hexo-Markdown语法"><a href="#Hexo-Markdown语法" class="headerlink" title="Hexo Markdown语法"></a>Hexo Markdown语法</h1><p><br><br><br><img src="/img/1.jpg" class="[class names1]" title="[720] [450] [1 text [11 text]]"><br><img src="/img/2.jpg" class="[class names2]" title="[720] [450] [2 text [22 text]]"><br><img src="/img/3.jpg" class="[class names3]" title="[720] [450] [3 text [33 text]]"><br><img src="/img/4.jpg" class="[class names4]" title="[720] [450] [4 text [44 text]]"><br><br><br><br>折腾了好久终于把Hexo弄好了，真的是一波三折。具体怎么安装的<a href="https://hexo.io" target="_blank" rel="noopener">请看官网上的教程</a><br><br><br></p>
 
-    </ul>
-</div>
-
+        
+        <div id="comment-container">
+        </div>
+    </div>
 </div>
     </div>
 </div>
@@ -220,10 +209,24 @@
     // We expose some of the variables needed by the front end
     window.hexo_search_path = "search.json"
     window.hexo_root = "/"
-    window.isPost = false
+    window.isPost = true
 </script>
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script src="/js/index.js"></script>
 <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<script src="/js/gitment.js"></script>
+<script>
+    var gitment = new Gitment({
+        id: 'MarkDown语法总结',
+        owner: 'gibck',
+        repo: 'gitment',
+        oauth: {
+            client_id: 'c1e4bf87bee5279b480c',
+            client_secret: 'bf8c6657db57ace3c750bd018dd50dc55c2fab73',
+        },
+    })
+    gitment.render('comment-container')
+</script>
 
 </html>
