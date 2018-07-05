@@ -10,6 +10,9 @@ html {
 body {
   margin-left: calc(100vw - 100%) !important;
 }
+table,th,tr,td{
+	border:solid;
+}
 .red {
   color: red;
 }
@@ -944,7 +947,7 @@ pre code {
 .highlight table {
   margin: 0;
   width: auto;
-  border: solid;
+  border: none;
 }
 .highlight td {
   border: none;
@@ -989,7 +992,7 @@ pre code {
   width: auto;
 }
 .gist table td {
-  border: solid;
+  border: none;
 }
 pre .deletion {
   background: #fdd;
