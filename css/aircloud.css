@@ -944,7 +944,7 @@ pre code {
 .highlight table {
   margin: 0;
   width: auto;
-  border: none;
+  border: solid;
 }
 .highlight td {
   border: none;
@@ -989,7 +989,7 @@ pre code {
   width: auto;
 }
 .gist table td {
-  border: none;
+  border: solid;
 }
 pre .deletion {
   background: #fdd;
