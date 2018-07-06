@@ -5,9 +5,9 @@
   <subtitle>每个人都会累，没人能为你承担孤单和疲惫。所以总有一瞬间，我们要学会自己长大</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://gibck.github.io/"/>
   <updated>2018-07-06T06:04:58.306Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://gibck.github.io/</id>
   
   <author>
     <name>kevin</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>MarkDown语法总结</title>
-    <link href="http://yoursite.com/2018/07/05/MarkDown%E8%AF%AD%E6%B3%95%E6%80%BB%E7%BB%93/"/>
-    <id>http://yoursite.com/2018/07/05/MarkDown语法总结/</id>
+    <link href="https://gibck.github.io/2018/07/05/MarkDown%E8%AF%AD%E6%B3%95%E6%80%BB%E7%BB%93/"/>
+    <id>https://gibck.github.io/2018/07/05/MarkDown语法总结/</id>
     <published>2018-07-05T09:49:41.000Z</published>
     <updated>2018-07-06T06:04:58.306Z</updated>
     
@@ -35,16 +35,16 @@
     </summary>
     
     
-      <category term="markedown" scheme="http://yoursite.com/tags/markedown/"/>
+      <category term="markedown" scheme="https://gibck.github.io/tags/markedown/"/>
     
-      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+      <category term="hexo" scheme="https://gibck.github.io/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>测试</title>
-    <link href="http://yoursite.com/2018/07/05/%E6%B5%8B%E8%AF%95/"/>
-    <id>http://yoursite.com/2018/07/05/测试/</id>
+    <link href="https://gibck.github.io/2018/07/05/%E6%B5%8B%E8%AF%95/"/>
+    <id>https://gibck.github.io/2018/07/05/测试/</id>
     <published>2018-07-05T06:34:27.000Z</published>
     <updated>2018-07-06T06:23:23.325Z</updated>
     
@@ -60,7 +60,7 @@
     </summary>
     
     
-      <category term="test" scheme="http://yoursite.com/tags/test/"/>
+      <category term="test" scheme="https://gibck.github.io/tags/test/"/>
     
   </entry>
   
