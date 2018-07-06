@@ -48,18 +48,11 @@ $(document).ready(function(){
                 var path = '../../../../../../../'+post.path
                 date = new Date(date)
                 date = date.toLocaleDateString()
-               var item = `<li class='post-item'> \
-                <span class='date'>${date}</span> \
-                <a class='title' href='${path}'>${title}</a> \
-              </li>`
+               var item = '<li class='post-item'> <span class='date'>${date}</span> <a class='title' href='${path}'>${title}</a> </li>'
               items += item
             });
             
-           items = `<section class='archive'>
-            <ul class='post-archive'>
-                ${items}
-            </ul>
-          </section>`
+           items = '<section class='archive'><ul class='post-archive'>${items}</ul></section>'
           document.querySelector('.search-items').innerHTML = items
           document.querySelector('.not-found').style.display ='none'
         }
