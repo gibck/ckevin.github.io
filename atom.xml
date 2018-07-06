@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://gibck.github.io/"/>
-  <updated>2018-07-06T08:37:19.358Z</updated>
+  <updated>2018-07-06T09:14:22.628Z</updated>
   <id>https://gibck.github.io/</id>
   
   <author>
@@ -21,13 +21,13 @@
     <link href="https://gibck.github.io/2018/07/06/JAVA8%E6%96%B0%E7%89%B9%E6%80%A7/"/>
     <id>https://gibck.github.io/2018/07/06/JAVA8新特性/</id>
     <published>2018-07-06T08:34:50.000Z</published>
-    <updated>2018-07-06T08:37:19.358Z</updated>
+    <updated>2018-07-06T09:14:22.628Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="java8-JDK新特性"><a href="#java8-JDK新特性" class="headerlink" title="java8 JDK新特性"></a>java8 JDK新特性</h2><h3 id="stream"><a href="#stream" class="headerlink" title="stream"></a>stream</h3><a id="more"></a><hr><h3 id="map"><a href="#map" class="headerlink" title="map"></a>map</h3><hr><h3 id="filter"><a href="#filter" class="headerlink" title="filter"></a>filter</h3><hr><h3 id="reduce"><a href="#reduce" class="headerlink" title="reduce"></a>reduce</h3><hr>]]></content>
+    <content type="html"><![CDATA[<h2 id="java8-JDK新特性"><a href="#java8-JDK新特性" class="headerlink" title="java8 JDK新特性"></a>java8 JDK新特性</h2><img src="/img/2.jpg" class="[class names]"><a id="more"></a><h3 id="stream"><a href="#stream" class="headerlink" title="stream"></a>stream</h3><hr><h3 id="map"><a href="#map" class="headerlink" title="map"></a>map</h3><hr><h3 id="filter"><a href="#filter" class="headerlink" title="filter"></a>filter</h3><hr><h3 id="reduce"><a href="#reduce" class="headerlink" title="reduce"></a>reduce</h3><hr>]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;java8-JDK新特性&quot;&gt;&lt;a href=&quot;#java8-JDK新特性&quot; class=&quot;headerlink&quot; title=&quot;java8 JDK新特性&quot;&gt;&lt;/a&gt;java8 JDK新特性&lt;/h2&gt;&lt;h3 id=&quot;stream&quot;&gt;&lt;a href=&quot;#stream&quot; class=&quot;headerlink&quot; title=&quot;stream&quot;&gt;&lt;/a&gt;stream&lt;/h3&gt;
+      &lt;h2 id=&quot;java8-JDK新特性&quot;&gt;&lt;a href=&quot;#java8-JDK新特性&quot; class=&quot;headerlink&quot; title=&quot;java8 JDK新特性&quot;&gt;&lt;/a&gt;java8 JDK新特性&lt;/h2&gt;&lt;img src=&quot;/img/2.jpg&quot; class=&quot;[class names]&quot;&gt;
     
     </summary>
     
@@ -58,26 +58,6 @@
       <category term="markedown" scheme="https://gibck.github.io/tags/markedown/"/>
     
       <category term="hexo" scheme="https://gibck.github.io/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>测试</title>
-    <link href="https://gibck.github.io/2018/07/05/%E6%B5%8B%E8%AF%95/"/>
-    <id>https://gibck.github.io/2018/07/05/测试/</id>
-    <published>2018-07-05T06:34:27.000Z</published>
-    <updated>2018-07-06T07:13:00.850Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="java8-JDK新特性"><a href="#java8-JDK新特性" class="headerlink" title="java8 JDK新特性"></a>java8 JDK新特性</h3><h4 id="stream"><a href="#stream" class="headerlink" title="stream"></a>stream</h4><a id="more"></a><h4 id="filter"><a href="#filter" class="headerlink" title="filter"></a>filter</h4><h4 id="map"><a href="#map" class="headerlink" title="map"></a>map</h4><h4 id="reduce"><a href="#reduce" class="headerlink" title="reduce"></a>reduce</h4>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;java8-JDK新特性&quot;&gt;&lt;a href=&quot;#java8-JDK新特性&quot; class=&quot;headerlink&quot; title=&quot;java8 JDK新特性&quot;&gt;&lt;/a&gt;java8 JDK新特性&lt;/h3&gt;&lt;h4 id=&quot;stream&quot;&gt;&lt;a href=&quot;#stream&quot; class=&quot;headerlink&quot; title=&quot;stream&quot;&gt;&lt;/a&gt;stream&lt;/h4&gt;
-    
-    </summary>
-    
-    
-      <category term="test" scheme="https://gibck.github.io/tags/test/"/>
     
   </entry>
   

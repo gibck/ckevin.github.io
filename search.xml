@@ -6,7 +6,7 @@
       <title>JAVA8新特性</title>
       <link href="/2018/07/06/JAVA8%E6%96%B0%E7%89%B9%E6%80%A7/"/>
       <url>/2018/07/06/JAVA8%E6%96%B0%E7%89%B9%E6%80%A7/</url>
-      <content type="html"><![CDATA[<h2 id="java8-JDK新特性"><a href="#java8-JDK新特性" class="headerlink" title="java8 JDK新特性"></a>java8 JDK新特性</h2><h3 id="stream"><a href="#stream" class="headerlink" title="stream"></a>stream</h3><a id="more"></a><hr><h3 id="map"><a href="#map" class="headerlink" title="map"></a>map</h3><hr><h3 id="filter"><a href="#filter" class="headerlink" title="filter"></a>filter</h3><hr><h3 id="reduce"><a href="#reduce" class="headerlink" title="reduce"></a>reduce</h3><hr>]]></content>
+      <content type="html"><![CDATA[<h2 id="java8-JDK新特性"><a href="#java8-JDK新特性" class="headerlink" title="java8 JDK新特性"></a>java8 JDK新特性</h2><img src="/img/2.jpg" class="[class names]"><a id="more"></a><h3 id="stream"><a href="#stream" class="headerlink" title="stream"></a>stream</h3><hr><h3 id="map"><a href="#map" class="headerlink" title="map"></a>map</h3><hr><h3 id="filter"><a href="#filter" class="headerlink" title="filter"></a>filter</h3><hr><h3 id="reduce"><a href="#reduce" class="headerlink" title="reduce"></a>reduce</h3><hr>]]></content>
       
       <categories>
           
@@ -35,21 +35,6 @@
             <tag> markedown </tag>
             
             <tag> hexo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>测试</title>
-      <link href="/2018/07/05/%E6%B5%8B%E8%AF%95/"/>
-      <url>/2018/07/05/%E6%B5%8B%E8%AF%95/</url>
-      <content type="html"><![CDATA[<h3 id="java8-JDK新特性"><a href="#java8-JDK新特性" class="headerlink" title="java8 JDK新特性"></a>java8 JDK新特性</h3><h4 id="stream"><a href="#stream" class="headerlink" title="stream"></a>stream</h4><a id="more"></a><h4 id="filter"><a href="#filter" class="headerlink" title="filter"></a>filter</h4><h4 id="map"><a href="#map" class="headerlink" title="map"></a>map</h4><h4 id="reduce"><a href="#reduce" class="headerlink" title="reduce"></a>reduce</h4>]]></content>
-      
-      
-        <tags>
-            
-            <tag> test </tag>
             
         </tags>
       
