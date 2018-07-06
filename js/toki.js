@@ -46,7 +46,7 @@ $(document).ready(function(){
                 var path = '../../../../../../../'+post.path
                 date = new Date(date)
                 date = date.toLocaleDateString()
-               var item = "<li class='post-item'> <span class='date'>${date}</span> <a class='title' href='${path}'>${title}</a></li>"
+               var item = "<li class='post-item'> <span class='date'>"+date+"</span> <a class='title' href='${path}'>"+title+"</a></li>"
               items += item
             });
             
