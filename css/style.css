@@ -251,21 +251,21 @@ main,
 }
 .post .content h1 .headerlink {
   text-decoration: none;
-}
-.post .content h1 .headerlink::before {
-  content: '#';
+/*&::before{
+        content: '#'
+        }*/
 }
 .post .content h2 .headerlink {
   text-decoration: none;
-}
-.post .content h2 .headerlink::before {
-  content: '##';
+/*&::before{
+        content: '##'
+        }*/
 }
 .post .content h3 .headerlink {
   text-decoration: none;
-}
-.post .content h3 .headerlink::before {
-  content: '###';
+/*&::before{
+        content: '###'
+        }*/
 }
 .post .content *:not(pre) code {
   padding: 0.2em 0.4em;
