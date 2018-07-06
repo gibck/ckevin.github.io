@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Kevin Blog</title>
+  
+  <subtitle>每个人都会累，没人能为你承担孤单和疲惫。所以总有一瞬间，我们要学会自己长大</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-07-06T06:04:58.306Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>kevin</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MarkDown语法总结</title>
+    <link href="http://yoursite.com/2018/07/05/MarkDown%E8%AF%AD%E6%B3%95%E6%80%BB%E7%BB%93/"/>
+    <id>http://yoursite.com/2018/07/05/MarkDown语法总结/</id>
+    <published>2018-07-05T09:49:41.000Z</published>
+    <updated>2018-07-06T06:04:58.306Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Hexo-Markdown语法"><a href="#Hexo-Markdown语法" class="headerlink" title="Hexo Markdown语法"></a>Hexo Markdown语法</h1><img src="/img/1.jpg" class="[class names]"><p>折腾了好久终于把Hexo弄好了，真的是一波三折。具体怎么安装的<a href="https://hexo.io" target="_blank" rel="noopener">请看官网上的教程</a></p><ul><li>引入图片<br>  <code>[](http://***.img)</code></li><li>加粗、斜体<pre><code class="java">  **加粗的字体**  *斜体*</code></pre></li><li>主题<pre><code class="java">  # 一级主题  ## 二级主题  ### 三级主题</code></pre></li><li>表格<pre><code class="java">  | 表头1|表头2|表头3|表头4  | - | :- | :-: | -: |  |默认左对齐|左对齐|居中对其|右对齐|  |默认左对齐|左对齐|居中对其|右对齐|  |默认左对齐|左对齐|居中对其|右对齐|</code></pre></li></ul><blockquote><p>效果</p></blockquote><table><thead><tr><th>表头</th><th style="text-align:left">表头</th><th style="text-align:center">表头</th><th style="text-align:right">表头</th></tr></thead><tbody><tr><td>默认左对齐</td><td style="text-align:left">左对齐</td><td style="text-align:center">居中对其</td><td style="text-align:right">右对齐</td></tr><tr><td>默认左对齐</td><td style="text-align:left">左对齐</td><td style="text-align:center">居中对其</td><td style="text-align:right">右对齐</td></tr><tr><td>默认左对齐</td><td style="text-align:left">左对齐</td><td style="text-align:center">居中对其</td><td style="text-align:right">右对齐</td></tr></tbody></table><ul><li>代码块<pre><code class="javascript">      ```javascript       var i = 1;      function fn(a){          log.info(a);      }      `` `</code></pre></li></ul><blockquote><p>效果</p></blockquote><pre><code class="javascript">    var i = 1;    function fn(a){        log.info(a);    }</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Hexo-Markdown语法&quot;&gt;&lt;a href=&quot;#Hexo-Markdown语法&quot; class=&quot;headerlink&quot; title=&quot;Hexo Markdown语法&quot;&gt;&lt;/a&gt;Hexo Markdown语法&lt;/h1&gt;&lt;img src=&quot;/img/1.jpg&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="markedown" scheme="http://yoursite.com/tags/markedown/"/>
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>测试</title>
+    <link href="http://yoursite.com/2018/07/05/%E6%B5%8B%E8%AF%95/"/>
+    <id>http://yoursite.com/2018/07/05/测试/</id>
+    <published>2018-07-05T06:34:27.000Z</published>
+    <updated>2018-07-06T06:23:23.325Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="java8-JDK新特性"><a href="#java8-JDK新特性" class="headerlink" title="java8 JDK新特性"></a>java8 JDK新特性</h3><h4 id="stream"><a href="#stream" class="headerlink" title="stream"></a>stream</h4><h4 id="filter"><a href="#filter" class="headerlink" title="filter"></a>filter</h4><h4 id="map"><a href="#map" class="headerlink" title="map"></a>map</h4><h4 id="reduce"><a href="#reduce" class="headerlink" title="reduce"></a>reduce</h4>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;java8-JDK新特性&quot;&gt;&lt;a href=&quot;#java8-JDK新特性&quot; class=&quot;headerlink&quot; title=&quot;java8 JDK新特性&quot;&gt;&lt;/a&gt;java8 JDK新特性&lt;/h3&gt;&lt;h4 id=&quot;stream&quot;&gt;&lt;a href=&quot;#stream&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="test" scheme="http://yoursite.com/tags/test/"/>
+    
+  </entry>
+  
+</feed>
