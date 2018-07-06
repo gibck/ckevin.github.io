@@ -1,9 +1,7 @@
 $(document).ready(function(){
     var url = window.location.pathname
-    console.log(url)
     var items = $('.menu-item-link')
         items.each(function(index,element){
-            console.log($(this).attr("href"))
             if($(this).attr("href") == url) {$(this).css('color','#607d8b')}else{
                 $(this).css('color','#333')
             }
@@ -48,7 +46,7 @@ $(document).ready(function(){
                 var path = '../../../../../../../'+post.path
                 date = new Date(date)
                 date = date.toLocaleDateString()
-               var item = "<li class='post-item'> <span class='date'>${date}</span> <a class='title' href='${path}'>${title}</a> </li>"
+               var item = "<li class='post-item'> <span class='date'>${date}</span> <a class='title' href='${path}'>${title}</a></li>"
               items += item
             });
             
@@ -64,7 +62,6 @@ $(document).ready(function(){
         if(e.keyCode == 13){//回车
             var key = search_input.value
             var regExp = new RegExp(key.replace(/[ ]/g, '|'), 'gmi');
-            console.log(regExp)
             $.get('../../../../../../../content.json',function(data){
                 var result = data.filter(function(post) {
                     return matcher(post, regExp);
