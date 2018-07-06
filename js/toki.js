@@ -50,7 +50,7 @@ $(document).ready(function(){
               items += item
             });
             
-           items = "<section class='archive'><ul class='post-archive'>${items}</ul></section>"
+           items = "<section class='archive'><ul class='post-archive'>"+${items}+"</ul></section>"
           document.querySelector('.search-items').innerHTML = items
           document.querySelector('.not-found').style.display ='none'
         }
