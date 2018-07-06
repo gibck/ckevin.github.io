@@ -98,16 +98,40 @@
 <p>折腾了好久终于把Hexo弄好了，真的是一波三折。具体怎么安装的<a href="https://hexo.io" target="_blank" rel="noopener">请看官网上的教程</a></p>
 <ul>
 <li>引入图片<br>  <code>[](http://***.img)</code></li>
-<li>加粗、斜体<br>  <strong>加粗的字体</strong><br>  <em>斜体</em></li>
-<li>主题<br>  `# 一级主题<h2 id="二级主题"><a href="#二级主题" class="headerlink" title="二级主题"></a>二级主题</h2><h3 id="三级主题"><a href="#三级主题" class="headerlink" title="三级主题`"></a>三级主题`</h3></li>
-<li><p>表格<br>  <code>| 表头1|表头2|表头3|表头4
-  | - | :- | :-: | -: |
-  |默认左对齐|左对齐|居中对其|右对齐|
-  |默认左对齐|左对齐|居中对其|右对齐|
-  |默认左对齐|左对齐|居中对其|右对齐|</code><br>效果:</p>
-<p> | 表头 | 表头 | 表头 | 表头<br> | - | :- | :-: | -: |<br> |默认左对齐|左对齐|居中对其|右对齐|<br> |默认左对齐|左对齐|居中对其|右对齐|<br> |默认左对齐|左对齐|居中对其|右对齐|</p>
-</li>
+<li>加粗、斜体<br>  <code>**加粗的字体**</code><br>  <code>*斜体*</code></li>
+<li>主题<br>  <code># 一级主题</code><br>  <code>## 二级主题</code><br>  <code>### 三级主题</code></li>
+<li>表格<br>  <code>| 表头1|表头2|表头3|表头4</code><br>  <code>| - | :- | :-: | -: |</code><br>  <code>|默认左对齐|左对齐|居中对其|右对齐|</code><br>  <code>|默认左对齐|左对齐|居中对其|右对齐|</code><br>  <code>|默认左对齐|左对齐|居中对其|右对齐|</code><br>效果:</li>
 </ul>
+<table>
+<thead>
+<tr>
+<th>表头</th>
+<th style="text-align:left">表头</th>
+<th style="text-align:center">表头</th>
+<th style="text-align:right">表头</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>默认左对齐</td>
+<td style="text-align:left">左对齐</td>
+<td style="text-align:center">居中对其</td>
+<td style="text-align:right">右对齐</td>
+</tr>
+<tr>
+<td>默认左对齐</td>
+<td style="text-align:left">左对齐</td>
+<td style="text-align:center">居中对其</td>
+<td style="text-align:right">右对齐</td>
+</tr>
+<tr>
+<td>默认左对齐</td>
+<td style="text-align:left">左对齐</td>
+<td style="text-align:center">居中对其</td>
+<td style="text-align:right">右对齐</td>
+</tr>
+</tbody>
+</table>
 
                 
             </div>
