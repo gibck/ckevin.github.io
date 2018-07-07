@@ -120,18 +120,17 @@ Stream&lt;String&gt; stream = Stream.of(&quot;hexo&quot;,&quot;java8&quot;,&quot
 stream.map(String::toUpperCase).forEach(System.out::println);
 </code></pre>
 <ol start="2">
-<li>由数组创建流<blockquote>
+<li><p>由数组创建流</p>
+<blockquote>
 <p>可以使用Arrays的静态方法Arrays.stream把数组转换成流。</p>
 </blockquote>
+<pre><code class="java">     int[] numArr = {1,2,3,4,5};
+     // int数组转成IntStream流，计算总和是15
+     int numCount = Arrays.stream(numArr).sum();
+</code></pre>
 </li>
-</ol>
-<pre><code>``` java
-    int[] numArr = {1,2,3,4,5};
-    // int数组转成IntStream流，计算总和是15
-    int numCount = Arrays.stream(numArr).sum();
-```
-</code></pre><ol start="3">
-<li>由文件生成流<blockquote>
+<li><p>由文件生成流</p>
+<blockquote>
 <p>可以使用Files的静态方法Files.lines,它会返回一个由指定文件的各行字符串流。<br>flatMap是产生一个扁平的单词流，而不是给每一行生成一个单词流。</p>
 </blockquote>
 </li>
