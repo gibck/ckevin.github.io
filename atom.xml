@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://gibck.github.io/"/>
-  <updated>2018-07-06T09:14:22.628Z</updated>
+  <updated>2018-07-07T03:17:11.178Z</updated>
   <id>https://gibck.github.io/</id>
   
   <author>
@@ -21,13 +21,13 @@
     <link href="https://gibck.github.io/2018/07/06/JAVA8%E6%96%B0%E7%89%B9%E6%80%A7/"/>
     <id>https://gibck.github.io/2018/07/06/JAVA8新特性/</id>
     <published>2018-07-06T08:34:50.000Z</published>
-    <updated>2018-07-06T09:14:22.628Z</updated>
+    <updated>2018-07-07T03:17:11.178Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="java8-JDK新特性"><a href="#java8-JDK新特性" class="headerlink" title="java8 JDK新特性"></a>java8 JDK新特性</h2><img src="/img/2.jpg" class="[class names]"><a id="more"></a><h3 id="stream"><a href="#stream" class="headerlink" title="stream"></a>stream</h3><hr><h3 id="map"><a href="#map" class="headerlink" title="map"></a>map</h3><hr><h3 id="filter"><a href="#filter" class="headerlink" title="filter"></a>filter</h3><hr><h3 id="reduce"><a href="#reduce" class="headerlink" title="reduce"></a>reduce</h3><hr>]]></content>
+    <content type="html"><![CDATA[<h2 id="Java8-Jdk新特性"><a href="#Java8-Jdk新特性" class="headerlink" title="Java8 Jdk新特性"></a>Java8 Jdk新特性</h2><img src="/img/2.jpg" class="[class names]"><a id="more"></a><h3 id="stream"><a href="#stream" class="headerlink" title="stream"></a>stream</h3><ol><li>由值创建流<br> 可以使用Stream的静态方法Stream.of显示的创建一个流。它可以接收任意数量的参数。<br> Eg:<pre><code class="java">     Stream&lt;String&gt; stream = Stream.of(&quot;hexo&quot;,&quot;java8&quot;,&quot;lambdas&quot;,&quot;stream&quot;);//创建字符串流     stream.map(String::toUpperCase).forEach(System.out::println);//把所有字母转成大写，打印出来</code></pre></li><li>由数组创建流<br> 可以使用Arrays的静态方法Arrays.stream把数组转换成流。<br> Eg:<pre><code class="java">     int[] numArr = {1,2,3,4,5};     int numCount = Arrays.stream(numArr).sum();// int数组转成IntStream流，计算总和是15</code></pre></li><li>由文件生成流<br> 可以使用Files的静态方法Files.lines,它会返回一个由指定文件的各行字符串流。<br> Eg:<pre><code class="java">     Stream&lt;String&gt; lines = Files.lines(Paths.get(&quot;D:/data.txt&quot;),Charset.defaultCharset());     lines.flatMap(line-&gt;Arrays.stream(line.split(&quot; &quot;))).distinct().forEach(System.out::println);</code></pre></li></ol><hr><h3 id="map"><a href="#map" class="headerlink" title="map"></a>map</h3><hr><h3 id="filter"><a href="#filter" class="headerlink" title="filter"></a>filter</h3><hr><h3 id="reduce"><a href="#reduce" class="headerlink" title="reduce"></a>reduce</h3><hr>]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;java8-JDK新特性&quot;&gt;&lt;a href=&quot;#java8-JDK新特性&quot; class=&quot;headerlink&quot; title=&quot;java8 JDK新特性&quot;&gt;&lt;/a&gt;java8 JDK新特性&lt;/h2&gt;&lt;img src=&quot;/img/2.jpg&quot; class=&quot;[class names]&quot;&gt;
+      &lt;h2 id=&quot;Java8-Jdk新特性&quot;&gt;&lt;a href=&quot;#Java8-Jdk新特性&quot; class=&quot;headerlink&quot; title=&quot;Java8 Jdk新特性&quot;&gt;&lt;/a&gt;Java8 Jdk新特性&lt;/h2&gt;&lt;img src=&quot;/img/2.jpg&quot; class=&quot;[class names]&quot;&gt;
     
     </summary>
     
