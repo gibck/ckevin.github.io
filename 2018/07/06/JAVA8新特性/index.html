@@ -133,15 +133,14 @@ stream.map(String::toUpperCase).forEach(System.out::println);
 <blockquote>
 <p>可以使用Files的静态方法Files.lines,它会返回一个由指定文件的各行字符串流。<br>flatMap是产生一个扁平的单词流，而不是给每一行生成一个单词流。</p>
 </blockquote>
-<pre><code class="java"> Stream&lt;String&gt; lines = Files.lines(Paths.get(&quot;D:/data.txt&quot;),
- Charset.defaultCharset());
- //去除重复的数据，然后打印出来
- lines.flatMap(line-&gt;Arrays.stream(line.split(&quot;,&quot;)))
-      .distinct()
-      .forEach(System.out::println);
-</code></pre>
 </li>
 </ol>
+<pre><code class="java">    Stream&lt;String&gt; lines = Files.lines(Paths.get(&quot;D:/data.txt&quot;),Charset.defaultCharset());
+    //去除重复的数据，然后打印出来
+    lines.flatMap(line-&gt;Arrays.stream(line.split(&quot;,&quot;)))
+         .distinct()
+         .forEach(System.out::println);
+</code></pre>
 <h3 id="map"><a href="#map" class="headerlink" title="map"></a>map</h3><h3 id="flatMap"><a href="#flatMap" class="headerlink" title="flatMap"></a>flatMap</h3><h3 id="filter"><a href="#filter" class="headerlink" title="filter"></a>filter</h3><h3 id="reduce"><a href="#reduce" class="headerlink" title="reduce"></a>reduce</h3>
             </div>
           
