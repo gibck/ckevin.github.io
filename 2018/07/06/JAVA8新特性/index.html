@@ -112,12 +112,15 @@
 <blockquote>
 <p>可以使用Stream的静态方法Stream.of显示的创建一个流。它可以接收任意数量的参数。</p>
 </blockquote>
-<pre><code class="java">//创建字符串流
-Stream&lt;String&gt; stream = Stream.of(&quot;hexo&quot;,&quot;java8&quot;,&quot;lambdas&quot;,&quot;stream&quot;);
-//把所有字母转成大写，打印出来
-stream.map(String::toUpperCase).forEach(System.out::println);
+<pre><code class="java">    //创建字符串流
+    Stream&lt;String&gt; stream = Stream.of(&quot;hexo&quot;,&quot;java8&quot;,&quot;lambdas&quot;,&quot;stream&quot;);
+    //把所有字母转成大写，打印出来
+    stream.map(String::toUpperCase).forEach(System.out::println);
 </code></pre>
-<p>2.由数组创建流<br>    &gt; 可以使用Arrays的静态方法Arrays.stream把数组转换成流。</p>
+<p>2.由数组创建流</p>
+<blockquote>
+<p>可以使用Arrays的静态方法Arrays.stream把数组转换成流。</p>
+</blockquote>
 <pre><code>``` java
     int[] numArr = {1,2,3,4,5};
     // int数组转成IntStream流，计算总和是15
