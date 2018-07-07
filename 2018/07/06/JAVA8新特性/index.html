@@ -103,29 +103,31 @@
                     <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/java8/">java8</a></li></ul>
             </div>
 <div class="toc">
-  <ol class="toc-list"><li class="toc-list-item toc-list-level-2"><a class="toc-list-link" href="#Java8-Jdk新特性"><span class="toc-list-text">Java8 Jdk新特性</span></a><ol class="toc-list-child"><li class="toc-list-item toc-list-level-3"><a class="toc-list-link" href="#stream"><span class="toc-list-text">stream</span></a></li><li class="toc-list-item toc-list-level-3"><a class="toc-list-link" href="#map"><span class="toc-list-text">map</span></a></li><li class="toc-list-item toc-list-level-3"><a class="toc-list-link" href="#filter"><span class="toc-list-text">filter</span></a></li><li class="toc-list-item toc-list-level-3"><a class="toc-list-link" href="#reduce"><span class="toc-list-text">reduce</span></a></li></ol></li></ol>
+  <ol class="toc-list"><li class="toc-list-item toc-list-level-2"><a class="toc-list-link" href="#Java8-Jdk新特性"><span class="toc-list-text">Java8 Jdk新特性</span></a><ol class="toc-list-child"><li class="toc-list-item toc-list-level-3"><a class="toc-list-link" href="#stream"><span class="toc-list-text">stream</span></a></li><li class="toc-list-item toc-list-level-3"><a class="toc-list-link" href="#map"><span class="toc-list-text">map</span></a></li><li class="toc-list-item toc-list-level-3"><a class="toc-list-link" href="#flatMap"><span class="toc-list-text">flatMap</span></a></li><li class="toc-list-item toc-list-level-3"><a class="toc-list-link" href="#filter"><span class="toc-list-text">filter</span></a></li><li class="toc-list-item toc-list-level-3"><a class="toc-list-link" href="#reduce"><span class="toc-list-text">reduce</span></a></li></ol></li></ol>
 </div>
             <div class="content">
                 <h2 id="Java8-Jdk新特性"><a href="#Java8-Jdk新特性" class="headerlink" title="Java8 Jdk新特性"></a>Java8 Jdk新特性</h2><img src="/img/2.jpg" class="[class names]">
 <a id="more"></a>
 <h3 id="stream"><a href="#stream" class="headerlink" title="stream"></a>stream</h3><ol>
-<li>由值创建流<br> 可以使用Stream的静态方法Stream.of显示的创建一个流。它可以接收任意数量的参数。<br> Eg:<pre><code class="java">     Stream&lt;String&gt; stream = Stream.of(&quot;hexo&quot;,&quot;java8&quot;,&quot;lambdas&quot;,&quot;stream&quot;);//创建字符串流
-     stream.map(String::toUpperCase).forEach(System.out::println);//把所有字母转成大写，打印出来
+<li>由值创建流<br> 可以使用Stream的静态方法Stream.of显示的创建一个流。它可以接收任意数量的参数。<br> Eg:<pre><code class="java">     //创建字符串流
+     Stream&lt;String&gt; stream = Stream.of(&quot;hexo&quot;,&quot;java8&quot;,&quot;lambdas&quot;,&quot;stream&quot;);
+     //把所有字母转成大写，打印出来
+     stream.map(String::toUpperCase).forEach(System.out::println);
 </code></pre>
 </li>
 <li>由数组创建流<br> 可以使用Arrays的静态方法Arrays.stream把数组转换成流。<br> Eg:<pre><code class="java">     int[] numArr = {1,2,3,4,5};
-     int numCount = Arrays.stream(numArr).sum();// int数组转成IntStream流，计算总和是15
+     // int数组转成IntStream流，计算总和是15
+     int numCount = Arrays.stream(numArr).sum();
 </code></pre>
 </li>
 <li>由文件生成流<br> 可以使用Files的静态方法Files.lines,它会返回一个由指定文件的各行字符串流。<br> Eg:<pre><code class="java">     Stream&lt;String&gt; lines = Files.lines(Paths.get(&quot;D:/data.txt&quot;),Charset.defaultCharset());
-     lines.flatMap(line-&gt;Arrays.stream(line.split(&quot; &quot;))).distinct().forEach(System.out::println);
+     //去除重复的数据，然后打印出来
+     lines.flatMap(line-&gt;Arrays.stream(line.split(&quot;,&quot;)))
+          .distinct()
+          .forEach(System.out::println);
 </code></pre>
-</li>
+ flatMap是产生一个扁平的单词流，而不是给每一行生成一个单词流。<h3 id="map"><a href="#map" class="headerlink" title="map"></a>map</h3><h3 id="flatMap"><a href="#flatMap" class="headerlink" title="flatMap"></a>flatMap</h3><h3 id="filter"><a href="#filter" class="headerlink" title="filter"></a>filter</h3><h3 id="reduce"><a href="#reduce" class="headerlink" title="reduce"></a>reduce</h3></li>
 </ol>
-<hr>
-<h3 id="map"><a href="#map" class="headerlink" title="map"></a>map</h3><hr>
-<h3 id="filter"><a href="#filter" class="headerlink" title="filter"></a>filter</h3><hr>
-<h3 id="reduce"><a href="#reduce" class="headerlink" title="reduce"></a>reduce</h3><hr>
 
             </div>
           
