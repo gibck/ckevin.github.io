@@ -122,13 +122,13 @@
 <p>2.由数组创建流</p>
 <blockquote>
 <p>可以使用Arrays的静态方法Arrays.stream把数组转换成流。</p>
-</blockquote>
 <pre><code>```java
     int[] numArr = {1,2,3,4,5};
     // int数组转成IntStream流，计算总和是15
     int numCount = Arrays.stream(numArr).sum();
 ```
-</code></pre><p>3.由文件生成流</p>
+</code></pre></blockquote>
+<p>3.由文件生成流</p>
 <blockquote>
 <p>可以使用Files的静态方法Files.lines,它会返回一个由指定文件的各行字符串流。<br>flatMap是产生一个扁平的单词流，而不是给每一行生成一个单词流。</p>
 </blockquote>
