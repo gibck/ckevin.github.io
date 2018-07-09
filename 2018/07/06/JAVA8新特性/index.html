@@ -119,19 +119,22 @@
     //把所有字母转成大写，打印出来
     stream.map(String::toUpperCase).forEach(System.out::println);
 </code></pre>
-<p>2.由数组创建流</p>
+<ol start="2">
+<li><p>由数组创建流</p>
 <blockquote>
 <p>可以使用Arrays的静态方法Arrays.stream把数组转换成流。</p>
-<pre><code>```java
-    int[] numArr = {1,2,3,4,5};
-    // int数组转成IntStream流，计算总和是15
-    int numCount = Arrays.stream(numArr).sum();
-```
-</code></pre></blockquote>
-<p>3.由文件生成流</p>
+</blockquote>
+<pre><code class="java">     int[] numArr = {1,2,3,4,5};
+     // int数组转成IntStream流，计算总和是15
+     int numCount = Arrays.stream(numArr).sum();
+</code></pre>
+</li>
+<li><p>由文件生成流</p>
 <blockquote>
 <p>可以使用Files的静态方法Files.lines,它会返回一个由指定文件的各行字符串流。<br>flatMap是产生一个扁平的单词流，而不是给每一行生成一个单词流。</p>
 </blockquote>
+</li>
+</ol>
 <pre><code class="java">Stream&lt;String&gt; lines = Files.lines(Paths.get(&quot;D:/data.txt&quot;),Charset.defaultCharset());
 //去除重复的数据，然后打印出来
 lines.flatMap(line-&gt;Arrays.stream(line.split(&quot;,&quot;)))
